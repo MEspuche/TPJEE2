@@ -1,0 +1,216 @@
+@CHARSET "UTF-8";
+
+td,th{
+	border : 1px solid black;
+	padding : 10px;
+
+}
+
+table{
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+#section-1{
+	background-color: rgba(168,197,36,036);
+	padding : 10px;
+	margin : 20px 0px;
+}
+
+#section-2{
+	background-color: orange;
+	
+}
+span{
+	color : red;
+}
+
+legend{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #444;
+}               
+
+#section-1 input{
+	width: 300px;
+	height: 20px;
+}
+
+#section-1 label{
+	display: inline-block;
+	width: 100px;
+	padding: 10px 0px 15px 40px;
+}
+
+input[type="submit"]
+{
+	float : right;
+	background-color: #fe6921;
+}
+
+/*Si la taille de l'ecran est inferieure a 680px*/
+@media screen and (max-width:680px){
+	body {
+	background-color: orange;
+	width:600px;
+	margin : 0 auto;
+	}
+	
+.div1{
+	border: 2px solid black;
+	margin-bottom : 20px;
+	text-align: center;
+	padding : 0 20px ;/* 0 top bottom et 20 left right*/
+
+}
+
+.div2{
+
+	width : 600px;
+}
+
+.div4{
+	
+	width : 600px;
+	
+}
+
+.div3{
+	border: 2px solid black;
+	margin: 5px;
+	margin-bottom: 20px;
+	padding : 0 20px;
+}
+
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	padding-bottom : 20px;
+}
+}
+
+
+/*Si la taille de l'ecran est comprise entre 680px et 1279px*/
+@media screen and (min-width:681px)and (max-width:1279px){
+	body {
+	background-color: green;
+	width:960px;
+	margin : 0 auto;
+	}
+	
+.div1{
+	border: 2px solid black;
+	margin-bottom : 20px;
+	text-align: center;
+	padding : 0 20px ; /* 0 top bottom et 20 left right*/
+
+}
+
+.div2{
+	float : left;
+	width : 960px;
+}
+
+.div4{
+	
+	width : 960px;
+	float : right;
+}
+
+.div3{
+	border: 2px solid black;
+	margin: 5px;
+	margin-bottom: 20px;
+	padding : 0 20px;
+	
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+.footer{
+	width : 900px;
+	text-align: center;
+	padding-bottom : 20px;
+}
+.planetes{
+	width : 400px;
+	float : left;
+}
+
+.etoiles{
+	width : 400px;
+	height : 240px;
+	float : right;
+}
+}	
+	
+
+
+
+
+/*Si la taille de l'ecran est superieure a 1279px*/
+@media screen and (min-width:1280px){
+	
+	body {
+	background-color: yellow;
+	
+	width:960px;
+	margin : 0 auto;
+	}
+	
+
+
+
+.div1{
+	border: 2px solid black;
+	margin-bottom : 20px;
+	text-align: center;
+	padding : 0 20px ; /* 0 top bottom et 20 left right*/
+
+}
+
+.div2{
+	float: left;
+	width : 240px;
+}
+
+.div4{
+	float: right;
+	width : 690px;
+	
+}
+
+.div3{
+	border: 2px solid black;
+	margin: 5px;
+	margin-bottom: 20px;
+	padding : 0 20px;
+}
+
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	padding-bottom : 20px;
+}
+
+}
+
+
+
+
+

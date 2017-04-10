@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Premier JEE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/modeleDePage.css" />
+</head>
+<body>
+
+
+	<div class="div4">
+		<div class="div3 demonstration">
+			<h2>Formulaire</h2>
+			<form method="post" action="MaServletAjouterClient">
+				<!-- va dans le doGet de MaServlet -->
+				<fieldset id="section-1">
+					<legend>Ajouter un client</legend>
+					<label for="nom">saisir votre nom</label> <input type="text"
+						name="nom" id="nom" /> <br /> <label for="prenom">saisir
+						prenom</label> <input type="text" name="prenom" id="prenom" /> <br /> <label
+						for="couleurYeux">saisir la couleur de vos yeux</label> <input
+						type="text" name="couleurYeux" id="couleurYeux" /> <br /> <label
+						for="age">saisir votre age</label> <input type="number"
+						name="age" id="age" /> <br />
+				</fieldset>
+				<input type="submit" value="valider" /> <br />
+			</form>
+
+
+			
+		</div>
+	</div>
+</body>
+</html>
